@@ -1,0 +1,12 @@
+services:
+    -
+        class: SKukunin\PHPStanRules\Rules\NoErrorSilencingRule
+        tags: [phpstan.rules.rule]
+
+    -
+        class: SKukunin\PHPStanRules\Rules\NoContainerGetRule
+        tags: [phpstan.rules.rule]
+
+    -
+        class: SKukunin\PHPStanRules\Rules\NoControllerGetParameterRule
+        tags: [phpstan.rules.rule]
