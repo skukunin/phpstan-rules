@@ -1,4 +1,5 @@
+.idea
+.aider*
 /vendor/
 .phpunit.cache
 /tests/@coverage
-.aider*
